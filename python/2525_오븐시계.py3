@@ -1,8 +1,8 @@
-A,B=map(int,input().split())
-C=int(input())
-if B+C>=60:
-    A=(A+int((B+C)/60))%24
-    B=int((B+C)%60)
+A,B=map(int,input().split()) # 입력받은 문자열을 공백을 기준으로 나누고 정수로 형변환
+C=int(input()) # 입력받은 문자를 정수로 형변환
+if B+C>=60: # B와 C를 더한 값이 60보다 크거나 같을 경우
+    A=(A+int((B+C)/60))%24 # B와 C를 더하고 60으로 나눠 정수로 형변환 후 A와 더하고 24로 나눈 나머지 값 저장
+    B=(B+C)%60 # B와 C를 더하고 60으로 나눈 나머지 값 
 else:
-    B+=C
+    B+=C 
 print(A, B)
