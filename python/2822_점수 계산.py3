@@ -8,6 +8,7 @@
 # 첫째 줄에 참가자의 총점을 출력한다. 둘째 줄에는 어떤 문제가 최종 점수에 포함되는지를 공백으로 구분하여 출력한다.
 # 출력은 문제 번호가 증가하는 순서이어야 한다.
 
+# 풀이 1
 A=B=C=[]
 for i in range(8):
     A.append(int(input()))
@@ -19,3 +20,13 @@ for j in range(3,8):
 C.sort()
 for x in C:
     print(x+1, end=' ')
+
+# 풀이 2
+A = [int(input()) for i in range(8)] # 반복문을 돌며 입력 받은 값을 A에 배열로 저장
+B = sorted(A, reverse=True)[0:5]
+C = []
+for i in B:
+    C.append(A.index(i) + 1)
+    C.sort()
+print(sum(B))
+print(*C)
