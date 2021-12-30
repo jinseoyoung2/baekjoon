@@ -10,3 +10,5 @@ B=1
 for i in range(N):
     A, B = B, A+B
 print(A)
+
+# https://www.acmicpc.net/problem/10870 피보나치 수 5
