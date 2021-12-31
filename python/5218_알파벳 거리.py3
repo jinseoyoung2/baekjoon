@@ -15,7 +15,7 @@ for i in range(A):
     num=[]
     for j in range(len(B[0])):
         if B[0][j] > B[1][j]:
-            num.append((ord(B[1][j])+26)-ord(B[0][j]))
+            num.append((ord(B[1][j])+26)-ord(B[0][j])) # ord() : 한 문자를 아스키 코드값으로 변환
         else:
             num.append(ord(B[1][j])-ord(B[0][j]))
     print('Distances:',*num)
