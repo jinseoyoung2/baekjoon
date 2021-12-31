@@ -11,9 +11,12 @@ S=input()
 ROT13 = ''
 for i in S:
     if 'a' <= i <= 'z':
-        ROT13 += chr((ord(i)+13) if i <= 'm' else ord(i)-13)
+        ROT13 += chr((ord(i)+13) if i <= 'm' else ord(i)-13) 
     elif 'A' <= i <= 'Z':
         ROT13 += chr((ord(i)+13) if i <= 'M' else ord(i)-13)
     else:
         ROT13 += i
 print(ROT13)
+
+# ord() : 한문자를 아스키 코드값으로 변환
+# chr() : 아스키 코드값을 문자로 변환
