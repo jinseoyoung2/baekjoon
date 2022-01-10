@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/10845
+
 import sys
 stack = []
 for i in range(int(sys.stdin.readline())):
