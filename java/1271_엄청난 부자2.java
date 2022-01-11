@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1271
+
 import java.util.Scanner;
 import java.math.BigInteger;
 public class Main{
