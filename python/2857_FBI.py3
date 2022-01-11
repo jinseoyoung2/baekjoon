@@ -7,16 +7,11 @@
 # 첫째 줄에 FBI 요원을 출력한다. 이때, 해당하는 요원이 몇 번째 입력인지를 공백으로 구분하여 출력해야 하며,
 # 오름차순으로 출력해야 한다. 만약 FBI 요원이 없다면 "HE GOT AWAY!"를 출력한다
 
-num=1
-err=0
-while True:
-    try:
-        fbi=input()
-        if fbi.find('FBI')!=-1:
-            print(num)
-            err=1
-        num+=1
-    except EOFError:
-        if err==0:
-            print('HE GOT AWAY!')
-        break
+err=1
+for i in range(1,6):
+    fbi=input()
+    if fbi.find('FBI')!=-1:
+        print(i)
+        err=0
+if err == 1:
+    print('HE GOT AWAY!')
