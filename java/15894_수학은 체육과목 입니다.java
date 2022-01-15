@@ -1,4 +1,5 @@
 // https://www.acmicpc.net/problem/15894
+// https://dda0e.tistory.com/57
 
 import java.util.Scanner;
 import java.math.BigInteger;
