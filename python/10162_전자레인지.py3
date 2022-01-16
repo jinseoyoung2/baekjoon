@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/10162
+
 T=int(input())
 if T%10!=0:
     print(-1)
