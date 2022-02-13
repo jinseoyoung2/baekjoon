@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1110
+
 N=int(input())
 res=N
 cnt=0
