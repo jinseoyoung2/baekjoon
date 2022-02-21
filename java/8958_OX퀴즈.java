@@ -8,8 +8,6 @@
 // 출력 =>
 // 각 테스트 케이스마다 점수를 출력한다.
 
-// https://dda0e.tistory.com/52
-
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
