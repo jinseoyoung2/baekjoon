@@ -1,5 +1,4 @@
 # https://www.acmicpc.net/problem/10162
-# https://dda0e.tistory.com/59
 
 T=int(input())
 if T%10!=0:
