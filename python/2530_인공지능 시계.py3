@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/2530
+
 A,B,C=map(int,input().split()) # 입력받은 문자열을 공백을 기준으로 나누고 정수로 형변환
 D=int(input()) # 입력받은 문자를 정수로 형변환
 C+=D
